@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../pics/pay-bg.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5) height: 10vh;
+    width: 100%;
+    position: :absolute;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+}
+
+.headText {
+    margin-left: 2rem;
+    color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 750px;
+    font-size: 50px;
+    transform: translate(-20px, -50%);
+    transition: opacity 250ms ease;
+    font-weight: 600;
+}
+.content {
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+}
+
+.content-heading {
+    font-size: 50px;
+
+}
+
+.content2 {
+    margin: 1em;
+    font-size: 40px;
+    font-weight: 70px;
+    color:whitesmoke;
+}
+.content3 {
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    color: white;
+}
+
+
+#pay {
+    font-size: 16px;
+    padding: 16px;
+    margin: 12px;
+    width: 50%;
+    margin-top: 15px;
+    background-color: yellow;
+    border: none;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: 300ms ease;
+}
+
+#pay:hover {
+    transform: translate3d(0, -5px, 0);
+    box-shadow: 0 2rem 5rem 0 yellowgreen;
+    transition: 300ms ease;
+}
